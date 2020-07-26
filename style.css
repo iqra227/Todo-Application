@@ -1,0 +1,46 @@
+body{
+
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.TApezryjLkp4U5NfzannRgHaEo&pid=Api&P=0&w=255&h=160");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+
+.add{
+color: black;
+background-color: transparent;
+border-radius: 10px;
+
+}
+
+.add:hover{
+color: white;
+background-color: black;
+}
+#list>li>span{
+overflow-wrap: break-word;
+}
+
+@media (min-width: 200px) and (max-width: 600px){
+
+#todo{
+    width: 180px;
+}
+.add{
+font-size: 20px;
+}
+#list>li>button{
+    font-size: 12px;
+    font-weight: bold;
+    width: fit-content;
+    margin: 10px !important;
+
+}
+
+#list>li>span{
+    
+    overflow-wrap: break-word;
+    display: block !important; 
+}
+
+}
